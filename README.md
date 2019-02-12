@@ -9,11 +9,13 @@ This is the second largest heading. To create 'Heading 2', I have used '## Headi
 ### This is heading 3
 ###### This is the smallest possible heading
 
-# Formating the text
-## Quoting the text
-## Quoting the code
+## Quote the text
+Text can be quoted with `>`
+This is not quoted
+> But this is quoted
+## Quote the code and Syntax Highlighting
 
-## Line breaks:
+## Line breaks
 In most of the text editors, inserting/pressing an enter will result in a line break. However, that is not the case here as shown in the below example.
 ```
 After this start a new line.
@@ -29,29 +31,32 @@ In this section, I will walk you through multiple ways to include the line break
 ```
 After this start a new line.<br/>This is a new line.
 ```
-After this start a new line.<br/>This is a new line.
+  After this start a new line.<br/>This is a new line.
 
 - By inserting double space:
 ```
 After this start a new line.  (<--two spaces inserted here)This is a new line.
 ```
-After this start a new line.  
-This is a new line. <br/><br/>
-This is not a good option because some of the editors may strip the extra spaces.
+  After this start a new line.  
+  This is a new line. <br/><br/>
+  This is not a good option because some of the editors may strip the extra spaces.
 - By using backslash `\` at the end:
 ```
 After this start a new line.\
 This is a new line.
 ```
-After this start a new line.\
-This is a new line. <br/>
-This is not actually defined in the specification. Hence, some of the parsers may ignore it.
+  After this start a new line.\
+  This is a new line. <br/>
+  This is not actually defined in the specification. Hence, some of the parsers may ignore it.
 
 - By using `&nbsp`:
 ```
-After this start a new line.&nbspThis is a new line.
+After this start a new line.&nbsp;
+This is a new line.
 ```
-After this start a new line.&nbspThis is a new line.
+  After this start a new line.&nbsp;
+  This is a new line. <br/>
+
 ## Styling the text
 To stress the imporatance of a sentence or a word, we generally format it as either bold or underline or italic.  
 To bold the text, either use `__Text to bold goes here__ , where __ is double underscore` or `**Text to bold goes here** `  
@@ -62,3 +67,6 @@ Examples: *Italicize the text*, _Italicize the text_
 
 To strikethrough the text, use `~~Text to strikesthrough goes here~~`.  
 Examples: ~~This was wrong~~
+
+## Tables
+
