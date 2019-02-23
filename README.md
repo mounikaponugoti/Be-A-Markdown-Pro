@@ -14,7 +14,65 @@ Text can be quoted with `>`
 This is not quoted
 > But this is quoted
 ## Quote the code and Syntax Highlighting
+In a sentance code or a command can be quoted by wrapping it with sinle backticks.
+```
+This is a sentance and `this is the code or command`
+```
+This is a sentance and `this is the code or command`<br/>
+To format the code or command in a seperate block, use triple backticks before and after.
+```` 
+```
+Basic git commands are
+git clone https://github.com/mounikaponugoti/Be-A-Pro-ReadMe.git
+git add filename
+git status
+```
+````
+```
+Basic git commands are
+git clone https://github.com/mounikaponugoti/Be-A-Pro-ReadMe.git
+git add filename
+git status
+```
+For syntax highlighting, add langugae identifier as shown below.
+```` 
+```c++
+// This is C++ program
+#include <iostream>
 
+int main(){
+  std::cout << "Welcome to Be-A-Pro-ReadMe!!" << std::endl;
+  return 0;
+}
+```
+````
+```c++
+// This is C++ program
+#include <iostream>
+
+int main(){
+  std::cout << "Welcome to Be-A-Pro-ReadMe!!" << std::endl;
+  return 0;
+}
+```
+```` 
+```python
+# This is python program
+def main():
+  print "Welcome to Be-A-Pro-ReadMe!!"
+ 
+if __name__ == '__main__':
+  main()
+```
+````
+```python
+# This is python program
+def main():
+  print "Welcome to Be-A-Pro-ReadMe!!"
+ 
+if __name__ == '__main__':
+  main()
+```
 ## Line breaks
 In most of the text editors, inserting/pressing an enter will result in a line break. However, that is not the case here as shown in the below example.
 ```
@@ -25,7 +83,7 @@ After this start a new line.
 This is a new line.
 
 As expected, both the sentances are in the same line instead of in different lines. <br/> Now the question is, how to insert line breaks? 
-In this section, I will walk you through multiple ways to include the line breaks. Plese keep in mind that some of the options are not good to practice <br/>
+In this section, I will walk you through multiple ways to include the line breaks. Plese keep in mind that some of the options are not good to practice. <br/>
 
 - By using `<br/>`:
 ```
