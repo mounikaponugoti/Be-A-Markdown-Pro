@@ -3,14 +3,26 @@ In this repoistory, we will learn how to write and/or format different things as
 
 # Heading 1
 This is the largest possible heading. To make the text as heading, add `#` infront of it. 
-To create **Heading 1** as shown above, use `# Heading 1`
-
-## Heading 2
-This is the second largest heading. To create **Heading 2**, I have used `## Heading 2`. Similarly, by adding additional '#'s, size of the heading can be reduced as shown below:
+To create **Heading 1** as shown above, use 
 ```
+# Heading 1
+or
+
+Heading 1
+=============
+```
+## Heading 2
+This is the second largest heading. To create **Heading 2**, we can use `## Heading 2` or `Heading 2` followed by three or more hyphens `-`. Similarly, by adding additional '#'s, size of the heading can be reduced as shown below:
+```
+## This is heading 2
+This is also heading 2
+---
 ### This is heading 3
 ###### This is the smallest possible heading
 ```
+## This is heading 2
+This is also heading 2
+---
 ### This is heading 3
 ###### This is the smallest possible heading
 
@@ -18,6 +30,7 @@ This is the second largest heading. To create **Heading 2**, I have used `## Hea
 Text can be quoted with `>`
 This is not quoted
 > But this is quoted
+>> Nested quited
 ## Quote the code and Syntax Highlighting
 In a sentance code or a command can be quoted by wrapping it with sinle backticks.
 ```
@@ -112,14 +125,6 @@ This is a new line.
   This is a new line. <br/>
   This is not actually defined in the specification. Hence, some of the parsers may ignore it.
 
-- By using `&nbsp;`:
-```
-After this start a new line.&nbsp;
-This is a new line.
-```
-  After this start a new line.&nbsp;
-  This is a new line. <br/>
-
 ## Styling the text
 To stress the imporatance of a sentence or a word, we generally format it as either bold or underline or italic.  
 To bold the text, either use `__Text to bold goes here__ , where __ is double underscore` or `**Text to bold goes here** `  
@@ -139,6 +144,81 @@ To strikethrough the text, use `~~Text to strikesthrough goes here~~`.
 ~~This was wrong~~
 ```
 ~~This was wrong~~
+
+## Lists
+Bullets can be inserted either by using astrick `*` or plus `+` or minus `-` in the beginning of the line followed by space. However, when the same type of symbols is used, the space between the list of elements is less compared to using different symbols.
+```
+* Using astrick (pay attention to spacing)
+* Using astrick
++ Using plus
+- Using minus
+* Using astrick again
+```
+* Using astrick (pay attention to spacing)
+* Using astrick
++ Using plus
+- Using minus
+* Using astrick again
+
+To number the list instead of bullets:
+1. Adding numbers
+2. Adding numbers
+1. Adding numbers
+
+To automatically update the number:
+```
+1. List item one
+1. List item two
+1. List item three
+```
+1. List item one
+1. List item two
+1. List item three
+
+To incude check box:
+```
+* [x] Completed task
+* [ ] Uncompleted task
+```
+* [x] Completed task
+* [ ] Uncompleted task
+
+### Nested Lists:
+To create a nested list, it is required to add minimum spacing such that number or `*` or `-` or `+` aligns with the first character of the previous layer.
+
+```
+* In level 1
+* Still in level 1
+  * In level 2
+   * Still in level 2
+      1. In level 3
+      1. Still in level 3</br>
+```
+* In level 1
+* Still in level 1
+  * In level 2
+   * Still in level 2
+      1. In level 3
+      1. Still in level 3</br>
+
+```
+1. Level 1
+1. Still Level 1
+   1. Level 2
+   1. Still Level 2
+       1. Level 3
+       1. Still Level 3
+           *  Level 4
+           *  Level 4
+```
+1. Level 1
+1. Still Level 1
+   1. Level 2
+   1. Still Level 2
+       1. Level 3
+       1. Still Level 3
+           *  Level 4
+           *  Level 4
 
 ## Tables
 Tables can be created by using pipes `|` and hyphens `-`. Pipes are used to seperate columns and hyphens (at least three) are used to mark column headings.<br/>
@@ -172,3 +252,16 @@ To adjust the indentation of the text with in the column, include colon `:` eith
 | *Mount Everest* | 8,848 | 1 |
 | Lupghar Sar  | 7,200 | 108 |
 | `Mount Wycheproof` | 43 | not sure |
+
+# Horizontal lines
+Insert three or more of astricks `*` or underscores `_`.
+```
+Using astricks 
+***
+Using underscores
+___
+```
+Using astricks 
+***
+Using underscores
+___
