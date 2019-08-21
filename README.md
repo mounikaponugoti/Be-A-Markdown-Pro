@@ -145,6 +145,18 @@ To strikethrough the text, use `~~Text to strikesthrough goes here~~`.
 ```
 ~~This was wrong~~
 
+To add superscript, use `<sup>superscript</sup>`
+```
+(a + b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab
+```
+(a + b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab
+
+To add subscript, use `<sub>subscript</sub>`
+```
+a<sub>x</sub> and b<sub>x</sub> are two variables
+```
+a<sub>x</sub> and b<sub>x</sub> are two variables
+
 ## Lists
 Bullets can be inserted either by using astrick `*` or plus `+` or minus `-` in the beginning of the line followed by space. However, when the same type of symbols is used, the space between the list of elements is less compared to using different symbols.
 ```
@@ -183,7 +195,7 @@ To incude check box:
 * [x] Completed task
 * [ ] Uncompleted task
 
-### Nested Lists:
+### Nested Lists
 To create a nested list, it is required to add minimum spacing such that number or `*` or `-` or `+` aligns with the first character of the previous layer.
 
 ```
@@ -253,7 +265,7 @@ To adjust the indentation of the text with in the column, include colon `:` eith
 | Lupghar Sar  | 7,200 | 108 |
 | `Mount Wycheproof` | 43 | not sure |
 
-# Horizontal lines
+## Horizontal lines
 Insert three or more of astricks `*` or underscores `_`.
 ```
 Using astricks 
@@ -265,3 +277,33 @@ Using astricks
 ***
 Using underscores
 ___
+
+## Adding Links and Images
+Links to different sources can be added either by using absolute path or relative path.
+```
+[Click here](https://github.com/mounikaponugoti/Be-A-Pro-In-ReadMe/blob/master/doc/test.txt) to open the file test.txt added with absolute path.
+[Click here](doc/test.txt) to open the file test.txt added with relative path.
+```
+[Click here](https://github.com/mounikaponugoti/Be-A-Pro-In-ReadMe/blob/master/doc/test.txt) to open the file test.txt added with absolute path. </br>
+[Click here](doc/test.txt) to open the file test.txt added with relative path. </br>
+
+Similarly, links to external or internal webpages and images can be added with relative or absolute path. </br> 
+``` 
+Added with relative path: ![Test Image](Test.png)
+Added with absolute path: ![Test Image](https://github.com/mounikaponugoti/Be-A-Pro-In-ReadMe/blob/master/Test.png)
+```
+Added with relative path: ![Test Image](Test.png) </br>
+Added with absolute path: ![Test Image](https://github.com/mounikaponugoti/Be-A-Pro-In-ReadMe/blob/master/Test.png)
+
+### Resize the Image
+``` This method does not work
+![Test Image](https://github.com/mounikaponugoti/Be-A-Pro-In-ReadMe/blob/master/Test.png | width=75)
+```
+![Test Image](https://github.com/mounikaponugoti/Be-A-Pro-In-ReadMe/blob/master/Test.png | width=75)
+
+```
+Added with relative path: <img src="Test.png" width="75" height="100" />
+Added with absolute path: <img src="https://github.com/mounikaponugoti/Be-A-Pro-In-ReadMe/blob/master/Test.png" width="75" height="100"/>
+```
+Added with relative path: <img src="Test.png" width="75" height="100" /> </br>
+Added with absolute path: <img src="https://github.com/mounikaponugoti/Be-A-Pro-In-ReadMe/blob/master/Test.png" width="75" height="100"/>
