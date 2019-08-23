@@ -1,4 +1,4 @@
-# Be-A-Pro-ReadMe
+# Be-A-Markdown-Pro
 In this repoistory, we will learn how to write and/or format different things as required to improve the readability.
 
 # Heading 1
